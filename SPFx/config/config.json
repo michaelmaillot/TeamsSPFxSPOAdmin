@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "admin-spo-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/adminSpoWebPart/AdminSpoWebPartWebPart.js",
+          "manifest": "./src/webparts/adminSpoWebPart/AdminSpoWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AdminSpoWebPartWebPartStrings": "lib/webparts/adminSpoWebPart/loc/{locale}.js"
+  }
+}

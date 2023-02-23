@@ -1,0 +1,24 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "TeamsSPFxSPOAdmin",
+    "environment": "spo",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "AdminSpoWebPart",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.15.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.0",
+    "libraryName": "teams-sp-fx-spo-admin",
+    "libraryId": "e5df80e9-c9b1-44d4-85cd-88f9a4cc8703",
+    "packageManager": "npm",
+    "solutionShortDescription": "TeamsSPFxSPOAdmin description"
+  }
+}

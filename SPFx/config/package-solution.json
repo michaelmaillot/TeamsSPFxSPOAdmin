@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "teams-sp-fx-spo-admin-client-side-solution",
+    "id": "e5df80e9-c9b1-44d4-85cd-88f9a4cc8703",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "TeamsSPFxSPOAdmin description"
+      },
+      "longDescription": {
+        "default": "TeamsSPFxSPOAdmin description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "teams-sp-fx-spo-admin Feature",
+        "description": "The feature that activates elements of the teams-sp-fx-spo-admin solution.",
+        "id": "02f80b5f-0241-446e-9228-cc2b759aba2c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/teams-sp-fx-spo-admin.sppkg"
+  }
+}
